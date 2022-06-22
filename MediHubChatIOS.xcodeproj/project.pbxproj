@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01897847E1CE469FD224C190 /* Pods_MediHubChatIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B726FFDE0B67D8887D1F805 /* Pods_MediHubChatIOS.framework */; };
+		183E16BE217AF27B00E5095D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16BD217AF27B00E5095D /* AppDelegate.swift */; };
+		183E16C3217AF27B00E5095D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183E16C1217AF27B00E5095D /* Main.storyboard */; };
+		183E16C6217AF27B00E5095D /* MediHubChatIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183E16C4217AF27B00E5095D /* MediHubChatIOS.xcdatamodeld */; };
+		183E16C8217AF27D00E5095D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183E16C7217AF27D00E5095D /* Assets.xcassets */; };
+		183E16CB217AF27D00E5095D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183E16C9217AF27D00E5095D /* LaunchScreen.storyboard */; };
+		183E16D6217AF27D00E5095D /* MediHubChatIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16D5217AF27D00E5095D /* MediHubChatIOSTests.swift */; };
+		183E16E1217AF27D00E5095D /* MediHubChatIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16E0217AF27D00E5095D /* MediHubChatIOSUITests.swift */; };
+		183E16F8217AF4DA00E5095D /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16EE217AF4D800E5095D /* loginVC.swift */; };
+		183E16F9217AF4DA00E5095D /* resultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16EF217AF4D800E5095D /* resultsCell.swift */; };
+		183E16FA217AF4DA00E5095D /* conversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F0217AF4D800E5095D /* conversationVC.swift */; };
+		183E16FB217AF4DA00E5095D /* groupConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F1217AF4D800E5095D /* groupConversationVC.swift */; };
+		183E16FC217AF4DA00E5095D /* messageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F2217AF4D900E5095D /* messageCell.swift */; };
+		183E16FD217AF4DA00E5095D /* groupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F3217AF4D900E5095D /* groupVC.swift */; };
+		183E16FE217AF4DA00E5095D /* groupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F4217AF4D900E5095D /* groupCell.swift */; };
+		183E16FF217AF4DA00E5095D /* messagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F5217AF4D900E5095D /* messagesVC.swift */; };
+		183E1700217AF4DA00E5095D /* singupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F6217AF4D900E5095D /* singupVC.swift */; };
+		183E1701217AF4DA00E5095D /* usersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E16F7217AF4DA00E5095D /* usersVC.swift */; };
+		183E1705217AF74500E5095D /* profileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 183E1704217AF74400E5095D /* profileIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183E16D2217AF27D00E5095D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183E16B2217AF27B00E5095D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183E16B9217AF27B00E5095D;
+			remoteInfo = MediHubChatIOS;
+		};
+		183E16DD217AF27D00E5095D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183E16B2217AF27B00E5095D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183E16B9217AF27B00E5095D;
+			remoteInfo = MediHubChatIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B726FFDE0B67D8887D1F805 /* Pods_MediHubChatIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediHubChatIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183E16BA217AF27B00E5095D /* MediHubChatIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediHubChatIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183E16BD217AF27B00E5095D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		183E16C2217AF27B00E5095D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183E16C5217AF27B00E5095D /* MediHubChatIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediHubChatIOS.xcdatamodel; sourceTree = "<group>"; };
+		183E16C7217AF27D00E5095D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183E16CA217AF27D00E5095D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183E16CC217AF27D00E5095D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183E16D1217AF27D00E5095D /* MediHubChatIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediHubChatIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183E16D5217AF27D00E5095D /* MediHubChatIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediHubChatIOSTests.swift; sourceTree = "<group>"; };
+		183E16D7217AF27D00E5095D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183E16DC217AF27D00E5095D /* MediHubChatIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediHubChatIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183E16E0217AF27D00E5095D /* MediHubChatIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediHubChatIOSUITests.swift; sourceTree = "<group>"; };
+		183E16E2217AF27D00E5095D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183E16EE217AF4D800E5095D /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		183E16EF217AF4D800E5095D /* resultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsCell.swift; sourceTree = "<group>"; };
+		183E16F0217AF4D800E5095D /* conversationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationVC.swift; sourceTree = "<group>"; };
+		183E16F1217AF4D800E5095D /* groupConversationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = groupConversationVC.swift; sourceTree = "<group>"; };
+		183E16F2217AF4D900E5095D /* messageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messageCell.swift; sourceTree = "<group>"; };
+		183E16F3217AF4D900E5095D /* groupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = groupVC.swift; sourceTree = "<group>"; };
+		183E16F4217AF4D900E5095D /* groupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = groupCell.swift; sourceTree = "<group>"; };
+		183E16F5217AF4D900E5095D /* messagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messagesVC.swift; sourceTree = "<group>"; };
+		183E16F6217AF4D900E5095D /* singupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singupVC.swift; sourceTree = "<group>"; };
+		183E16F7217AF4DA00E5095D /* usersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usersVC.swift; sourceTree = "<group>"; };
+		183E1704217AF74400E5095D /* profileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIcon.png; sourceTree = "<group>"; };
+		6538A6CFF9E62CB6AE9A280F /* Pods_MediHubChatIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediHubChatIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD69463DBAC8C2535C6FFBA /* Pods_MediHubChatIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediHubChatIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFCD2EC80E92A93136B08F9 /* Pods-MediHubChatIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediHubChatIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediHubChatIOS/Pods-MediHubChatIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9841DA639EC95B81AAD9AA8F /* Pods-MediHubChatIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediHubChatIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediHubChatIOS/Pods-MediHubChatIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183E16B7217AF27B00E5095D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01897847E1CE469FD224C190 /* Pods_MediHubChatIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16CE217AF27D00E5095D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16D9217AF27D00E5095D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183E16B1217AF27B00E5095D = {
+			isa = PBXGroup;
+			children = (
+				183E16BC217AF27B00E5095D /* MediHubChatIOS */,
+				183E16D4217AF27D00E5095D /* MediHubChatIOSTests */,
+				183E16DF217AF27D00E5095D /* MediHubChatIOSUITests */,
+				183E16BB217AF27B00E5095D /* Products */,
+				87AF821ACC7FD03C07F57C31 /* Pods */,
+				9DC0527D32C1F4E483390C09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		183E16BB217AF27B00E5095D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183E16BA217AF27B00E5095D /* MediHubChatIOS.app */,
+				183E16D1217AF27D00E5095D /* MediHubChatIOSTests.xctest */,
+				183E16DC217AF27D00E5095D /* MediHubChatIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183E16BC217AF27B00E5095D /* MediHubChatIOS */ = {
+			isa = PBXGroup;
+			children = (
+				183E1704217AF74400E5095D /* profileIcon.png */,
+				183E16F0217AF4D800E5095D /* conversationVC.swift */,
+				183E16F4217AF4D900E5095D /* groupCell.swift */,
+				183E16F1217AF4D800E5095D /* groupConversationVC.swift */,
+				183E16F3217AF4D900E5095D /* groupVC.swift */,
+				183E16EE217AF4D800E5095D /* loginVC.swift */,
+				183E16F2217AF4D900E5095D /* messageCell.swift */,
+				183E16F5217AF4D900E5095D /* messagesVC.swift */,
+				183E16EF217AF4D800E5095D /* resultsCell.swift */,
+				183E16F6217AF4D900E5095D /* singupVC.swift */,
+				183E16F7217AF4DA00E5095D /* usersVC.swift */,
+				183E16BD217AF27B00E5095D /* AppDelegate.swift */,
+				183E16C1217AF27B00E5095D /* Main.storyboard */,
+				183E16C7217AF27D00E5095D /* Assets.xcassets */,
+				183E16C9217AF27D00E5095D /* LaunchScreen.storyboard */,
+				183E16CC217AF27D00E5095D /* Info.plist */,
+				183E16C4217AF27B00E5095D /* MediHubChatIOS.xcdatamodeld */,
+			);
+			path = MediHubChatIOS;
+			sourceTree = "<group>";
+		};
+		183E16D4217AF27D00E5095D /* MediHubChatIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				183E16D5217AF27D00E5095D /* MediHubChatIOSTests.swift */,
+				183E16D7217AF27D00E5095D /* Info.plist */,
+			);
+			path = MediHubChatIOSTests;
+			sourceTree = "<group>";
+		};
+		183E16DF217AF27D00E5095D /* MediHubChatIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183E16E0217AF27D00E5095D /* MediHubChatIOSUITests.swift */,
+				183E16E2217AF27D00E5095D /* Info.plist */,
+			);
+			path = MediHubChatIOSUITests;
+			sourceTree = "<group>";
+		};
+		87AF821ACC7FD03C07F57C31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCD2EC80E92A93136B08F9 /* Pods-MediHubChatIOS.debug.xcconfig */,
+				9841DA639EC95B81AAD9AA8F /* Pods-MediHubChatIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DC0527D32C1F4E483390C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B726FFDE0B67D8887D1F805 /* Pods_MediHubChatIOS.framework */,
+				6538A6CFF9E62CB6AE9A280F /* Pods_MediHubChatIOSTests.framework */,
+				7BD69463DBAC8C2535C6FFBA /* Pods_MediHubChatIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183E16B9217AF27B00E5095D /* MediHubChatIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183E16E5217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOS" */;
+			buildPhases = (
+				9039094480AD7D83364E4B30 /* [CP] Check Pods Manifest.lock */,
+				183E16B6217AF27B00E5095D /* Sources */,
+				183E16B7217AF27B00E5095D /* Frameworks */,
+				183E16B8217AF27B00E5095D /* Resources */,
+				6D6B7F0F600906AE5C99DDEF /* [CP] Embed Pods Frameworks */,
+				6D4923BAC52BB1C4467A3447 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediHubChatIOS;
+			productName = MediHubChatIOS;
+			productReference = 183E16BA217AF27B00E5095D /* MediHubChatIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183E16D0217AF27D00E5095D /* MediHubChatIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183E16E8217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOSTests" */;
+			buildPhases = (
+				183E16CD217AF27D00E5095D /* Sources */,
+				183E16CE217AF27D00E5095D /* Frameworks */,
+				183E16CF217AF27D00E5095D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183E16D3217AF27D00E5095D /* PBXTargetDependency */,
+			);
+			name = MediHubChatIOSTests;
+			productName = MediHubChatIOSTests;
+			productReference = 183E16D1217AF27D00E5095D /* MediHubChatIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183E16DB217AF27D00E5095D /* MediHubChatIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183E16EB217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOSUITests" */;
+			buildPhases = (
+				183E16D8217AF27D00E5095D /* Sources */,
+				183E16D9217AF27D00E5095D /* Frameworks */,
+				183E16DA217AF27D00E5095D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183E16DE217AF27D00E5095D /* PBXTargetDependency */,
+			);
+			name = MediHubChatIOSUITests;
+			productName = MediHubChatIOSUITests;
+			productReference = 183E16DC217AF27D00E5095D /* MediHubChatIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183E16B2217AF27B00E5095D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = medihub;
+				TargetAttributes = {
+					183E16B9217AF27B00E5095D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					183E16D0217AF27D00E5095D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 183E16B9217AF27B00E5095D;
+					};
+					183E16DB217AF27D00E5095D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 183E16B9217AF27B00E5095D;
+					};
+				};
+			};
+			buildConfigurationList = 183E16B5217AF27B00E5095D /* Build configuration list for PBXProject "MediHubChatIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183E16B1217AF27B00E5095D;
+			productRefGroup = 183E16BB217AF27B00E5095D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183E16B9217AF27B00E5095D /* MediHubChatIOS */,
+				183E16D0217AF27D00E5095D /* MediHubChatIOSTests */,
+				183E16DB217AF27D00E5095D /* MediHubChatIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183E16B8217AF27B00E5095D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E1705217AF74500E5095D /* profileIcon.png in Resources */,
+				183E16CB217AF27D00E5095D /* LaunchScreen.storyboard in Resources */,
+				183E16C8217AF27D00E5095D /* Assets.xcassets in Resources */,
+				183E16C3217AF27B00E5095D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16CF217AF27D00E5095D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16DA217AF27D00E5095D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D4923BAC52BB1C4467A3447 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediHubChatIOS/Pods-MediHubChatIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6B7F0F600906AE5C99DDEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MediHubChatIOS/Pods-MediHubChatIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediHubChatIOS/Pods-MediHubChatIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9039094480AD7D83364E4B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediHubChatIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183E16B6217AF27B00E5095D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E16FC217AF4DA00E5095D /* messageCell.swift in Sources */,
+				183E16BE217AF27B00E5095D /* AppDelegate.swift in Sources */,
+				183E16F8217AF4DA00E5095D /* loginVC.swift in Sources */,
+				183E16FB217AF4DA00E5095D /* groupConversationVC.swift in Sources */,
+				183E16FD217AF4DA00E5095D /* groupVC.swift in Sources */,
+				183E16FF217AF4DA00E5095D /* messagesVC.swift in Sources */,
+				183E16C6217AF27B00E5095D /* MediHubChatIOS.xcdatamodeld in Sources */,
+				183E1700217AF4DA00E5095D /* singupVC.swift in Sources */,
+				183E16F9217AF4DA00E5095D /* resultsCell.swift in Sources */,
+				183E16FA217AF4DA00E5095D /* conversationVC.swift in Sources */,
+				183E16FE217AF4DA00E5095D /* groupCell.swift in Sources */,
+				183E1701217AF4DA00E5095D /* usersVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16CD217AF27D00E5095D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E16D6217AF27D00E5095D /* MediHubChatIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E16D8217AF27D00E5095D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E16E1217AF27D00E5095D /* MediHubChatIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183E16D3217AF27D00E5095D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183E16B9217AF27B00E5095D /* MediHubChatIOS */;
+			targetProxy = 183E16D2217AF27D00E5095D /* PBXContainerItemProxy */;
+		};
+		183E16DE217AF27D00E5095D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183E16B9217AF27B00E5095D /* MediHubChatIOS */;
+			targetProxy = 183E16DD217AF27D00E5095D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183E16C1217AF27B00E5095D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183E16C2217AF27B00E5095D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183E16C9217AF27D00E5095D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183E16CA217AF27D00E5095D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183E16E3217AF27D00E5095D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183E16E4217AF27D00E5095D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183E16E6217AF27D00E5095D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFCD2EC80E92A93136B08F9 /* Pods-MediHubChatIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		183E16E7217AF27D00E5095D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9841DA639EC95B81AAD9AA8F /* Pods-MediHubChatIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		183E16E9217AF27D00E5095D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediHubChatIOS.app/MediHubChatIOS";
+			};
+			name = Debug;
+		};
+		183E16EA217AF27D00E5095D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediHubChatIOS.app/MediHubChatIOS";
+			};
+			name = Release;
+		};
+		183E16EC217AF27D00E5095D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediHubChatIOS;
+			};
+			name = Debug;
+		};
+		183E16ED217AF27D00E5095D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92X96QHTT2;
+				INFOPLIST_FILE = MediHubChatIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medihubvn.MediHubChatIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediHubChatIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183E16B5217AF27B00E5095D /* Build configuration list for PBXProject "MediHubChatIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183E16E3217AF27D00E5095D /* Debug */,
+				183E16E4217AF27D00E5095D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183E16E5217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183E16E6217AF27D00E5095D /* Debug */,
+				183E16E7217AF27D00E5095D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183E16E8217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183E16E9217AF27D00E5095D /* Debug */,
+				183E16EA217AF27D00E5095D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183E16EB217AF27D00E5095D /* Build configuration list for PBXNativeTarget "MediHubChatIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183E16EC217AF27D00E5095D /* Debug */,
+				183E16ED217AF27D00E5095D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183E16C4217AF27B00E5095D /* MediHubChatIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183E16C5217AF27B00E5095D /* MediHubChatIOS.xcdatamodel */,
+			);
+			currentVersion = 183E16C5217AF27B00E5095D /* MediHubChatIOS.xcdatamodel */;
+			path = MediHubChatIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 183E16B2217AF27B00E5095D /* Project object */;
+}
